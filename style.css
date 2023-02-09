@@ -1,0 +1,2260 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.navbar{
+
+display: flex;
+
+
+}
+.nav-list{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    text-align: right;
+     
+  
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 33px;
+    text-decoration: none;
+
+    
+
+
+}
+
+.nav-list li a {
+    text-decoration:none;
+    color: goldenrod;
+
+    
+}
+.nav-list li a:hover {
+    text-decoration:none;
+    color:maroon;
+    
+
+
+}
+
+.leftNav{
+    background-color:white;
+    width:50%;
+   
+}
+
+.logo{
+height: 70px;
+width : 40px;
+padding-left: 10px;
+padding: 5px;
+padding-top: 10px;
+display: flex;
+margin-left: 10px;
+    
+    
+   
+}
+
+.logo_name {
+   
+    height: 50px;
+    width: 60px;
+    padding-left: 40px;
+    padding-top: 15px;
+   
+    display: flex;
+
+
+
+
+}
+
+.number{
+
+   
+    display: flex;
+    
+    margin-left: 300px;
+}
+
+
+.phone_icon{
+    height: 10px;
+    width: 10px;
+}
+
+
+
+
+
+.firsthalf{
+
+    width: 100%;
+   
+}
+
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: rgb(209, 105, 9);
+    /* padding: 16px;
+    font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    display: flex;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 20px 16px 12px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+
+/* .dropdown {
+    
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-item dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+   .dropdown-list { 
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1;
+
+   }
+  .dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+   */
+
+  .box-main{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+  }
+
+  .text-big{
+    /* Refined Oil */
+
+position: absolute;
+width: 434px;
+height: 54px;
+left: 157px;
+top: 977px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 52px;
+/* or 81% */
+letter-spacing: 0.0015em;
+
+color: #BF9674;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+
+  .text-small{
+    /* Why */
+
+position: absolute;
+width: 434px;
+height: 53px;
+left: 157px;
+top: 918px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+letter-spacing: 0.0015em;
+
+color: #272727;
+
+
+  }
+
+  .extra-small{
+
+    position: absolute;
+width: 526px;
+height: 309px;
+left: 149px;
+top: 1167px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #272727;
+  }
+
+  .rightPanelimg{
+    /* While oil companies make the cash, future generations will feel the Backlash! */
+  
+  position: absolute;
+  width: 559px;
+  height: 60px;
+  left: 728px;
+  top: 965px;
+  z-index: -1;
+  flex-direction: column;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  color: #272727;
+  
+  }
+
+  .base-text{
+    position: absolute;
+  top: 80%;
+  left: 40%;
+ 
+  transform: translate(-30%, -60%);
+  }
+
+.video{
+    position: absolute;
+
+flex-direction: column;
+border-radius: 20px;
+}
+
+
+
+.regular{
+
+    /* Regular consumption of refined oil may lead to : */
+
+position: absolute;
+width: 730px;
+height: 28px;
+left: 1px;
+top: 400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 28px;
+/* identical to box height, or 88% */
+letter-spacing: -0.01em;
+text-decoration-line: underline;
+
+color: #BF9674;
+
+
+}
+
+         /* ======================Panel 1================================== */
+
+.panel1{
+    
+position: absolute;
+width: 360px;
+height: 500px;
+left: 480px;
+top: 1650px;
+z-index: -1;
+border-radius: 20px;
+}
+
+.h1{
+    
+/* Cardiac Arrest */
+
+position: absolute;
+width: 142px;
+height: 23px;
+left: 540px;
+top: 1660px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+
+
+}
+
+.txt1
+{
+ 
+
+/* It enhances the amount of trans fat, which is exceptionally harmful to your health and heart. Continuous use of refined oils can act as a passive poison and cause various heart problems. */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 504px;
+top: 1670px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+}
+
+
+/* {
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 560px;
+top: 1700px;
+} */
+
+
+    /* ======================Panel 2================================== */
+
+.panel2{
+
+       
+position: absolute;
+width: 360px;
+height: 500px;
+left: 80px;
+top: 1900px;
+z-index: -1;
+}
+
+.h2{
+
+
+/* Effect on Brain */
+
+position: absolute;
+width: 169px;
+height: 23px;
+left: 160px;
+top: 1910px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+}
+
+.txt2{
+    /* The reduced blood flow due to refined oil may cause coronary artery disease symptoms. If the plaque ruptures it obstructs the blood supply to the brain causing a stroke. */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 95px;
+top: 1940px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+}
+
+.headache{
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 390px;
+top: 1930px;
+
+}
+
+.cardiac{
+    position: absolute;
+    width: 360px;
+    height: 500px;
+    left: 590px;
+    top: 1850px;
+
+}
+
+.heartache{
+    position: absolute;
+    width: 360px;
+    height: 500px;
+    left: 820px;
+    top: 1930px;
+}
+
+     /* ======================Panel 3================================== */
+
+.panel3{
+
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 900px;
+top: 1900px;
+z-index: -1;
+
+}
+.h3{
+    /* Heart Attack */
+
+position: absolute;
+width: 125px;
+height: 23px;
+left: 990px;
+top: 1910px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+
+
+}
+
+.txt3{
+
+    /* They are high in inflammatory omega-6 fatty acids and made using toxic chemicals which can increase body inflammation, its consumption can cause diabetes, cancer and heart disease. */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 910px;
+top: 1940px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+}
+
+  /* ======================Panel 4================================== */
+
+.panel4{
+
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 30px;
+top: 2200px;
+z-index: -1;
+
+}
+
+.h4{
+    /* Dizziness */
+
+position: absolute;
+width: 94px;
+height: 23px;
+left: 140px;
+top: 2210px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+
+
+}
+
+.txt4{
+    /* enhances the amount of trans fat, which is exceptionally harmful to your health and heart. Continuous use of refined oils can act as a passive poison and cause various heart problems */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 48px;
+top: 2240px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+}
+
+.diziness{
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 320px;
+top: 2220px;
+}
+
+.circle{
+    position: absolute;
+    width: 360px;
+    height: 550px;
+    left: 500px;
+    top: 2150px;
+}
+
+.bottles{
+    position: absolute;
+    width: 360px;
+    height: 550px;
+    left: 520px;
+    top: 2170px;
+}
+
+.stomach{
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 900px;
+top: 2220px;
+}
+
+                 /* ======================Panel 5================================== */
+.h5{
+    /* Digestive System Problems */
+
+position: absolute;
+width: 267px;
+height: 23px;
+left: 995px;
+top: 2220px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+
+
+}
+
+.txt5{
+
+    /* The preservatives added to the oils during the refining process are unhealthy and can also cause various diseases like gastroenteritis, tumors, cysts, and ulcers. */
+
+position: absolute;
+width: 311px;
+height: 104px;
+left: 985px;
+top: 2260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+}
+.panel5{
+    
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 970px;
+top: 2200px;
+z-index: -1;
+}
+
+/* ======================Panel 6================================== */
+.h6{
+   /* Nausea */
+
+   position: absolute;
+   width: 74px;
+   height: 23px;
+   left: 195px;
+   top: 2510px;
+   
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 0.0025em;
+   
+   color: #272727;
+}
+
+.txt6{
+    /* enhances the amount of trans fat, which is exceptionally harmful to your health and heart. Continuous use of refined oils can act as a passive poison and cause various heart problems */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 88px;
+top: 2540px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+ 
+
+
+}
+.panel6{
+
+position: absolute;
+width: 360px;
+height: 500px;
+left: 80px;
+top: 2500px;
+z-index: -1;
+
+
+}
+
+.nausea{
+
+    position: absolute;
+    width: 360px;
+    height: 500px;
+    left: 390px;
+    top: 2500px;
+
+}
+
+.joint_pain{
+    position: absolute;
+    width: 360px;
+    height: 500px;
+    left: 560px;
+    top: 2590px;
+}
+
+.constipation{
+    position: absolute;
+    width: 360px;
+    height: 500px;
+    left: 800px;
+    top: 2500px;
+}
+
+
+
+/* ======================Panel 7================================== */
+
+.h7{
+    /* Bowel Diseases */
+
+position: absolute;
+width: 154px;
+height: 23px;
+left: 985px;
+top: 2510px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+}
+
+.txt7{
+    /* Excess consumption of omega 6 has harmful effects on gut health and can cause inflammatory bowel disease, colitis, and immune cell damage. Hence our diet should be rich in omega 3. */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 920px;
+top: 2540px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+}
+
+.panel7
+{
+    position: absolute;
+    width: 360px;
+    height: 500px;
+    left: 900px;
+    top: 2500px;
+    z-index: -1;
+
+}
+
+/* ======================Panel 8================================== */
+
+.h8{
+        
+/* Joint Pain */
+
+position: absolute;
+width: 98px;
+height: 23px;
+left: 570px;
+top: 2760px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0025em;
+
+color: #272727;
+
+
+
+
+
+
+}
+
+.txt8{
+/* It enhances the amount of trans fat, which is exceptionally harmful to your health and heart. Continuous use of refined oils can act as a passive poison and cause various heart problems. */
+
+position: absolute;
+width: 311px;
+height: 130px;
+left: 500px;
+top: 2790px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: justify;
+letter-spacing: -0.01em;
+
+color: #495263;
+
+
+
+}
+
+
+.panel8
+{
+    position: absolute;
+width: 360px;
+height: 500px;
+left: 480px;
+top: 2750px;
+z-index: -1;
+}
+
+
+.y{
+    
+    /* Why */
+
+position: absolute;
+width: 434px;
+height: 53px;
+left: 157px;
+top: 3000px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+letter-spacing: 0.0015em;
+
+color: #272727;
+
+
+}
+
+.purmpire{
+    /* Pur mpire */
+
+position: absolute;
+width: 564px;
+height: 54px;
+left: 152px;
+top: 3052px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 52px;
+/* or 54% */
+letter-spacing: 0.0015em;
+
+color: #84191C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.E{
+
+    /* Vector */
+
+position: absolute;
+left: 305px;
+right: 73.61%;
+top: 3040px;
+bottom: 66.39%;
+
+background: #84191C;
+
+}
+
+.goodforyou{
+    /* Is good for you? */
+
+position: absolute;
+width: 434px;
+height: 53px;
+left: 157px;
+top: 3144px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+letter-spacing: 0.0015em;
+
+color: #272727;
+
+
+}
+
+.para2{
+    /* PurEmpire is established on only one principle which is to provide 100% pure products to its consumers. PurEmpire is committed to make sure the product that reaches its consumer is 100% pure and healthy. PurEmpire takes care of all aspects related to purity and hygiene from manufacturing to delivery. PurEmpire is established on only one principle which is to provide 100% pure products to its consumers. PurEmpire is committed to make sure the product that reaches its consumer is 100% pure and healthy. PurEmpire takes care of all aspects related to purity and hygiene from manufacturing to delivery.PurEmpire is established on only one principle which is to provide 100% pure products to its consumers. */
+
+position: absolute;
+width: 516px;
+height: 329px;
+left: 149px;
+top: 3250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+letter-spacing: -0.01em;
+
+color: #000000;
+
+
+}
+
+.tree{
+    /* Group 10 */
+
+position: absolute;
+width: 660.2px;
+height: 550.66px;
+left: 56px;
+top: 5000px;
+
+
+
+/* TREE */
+
+
+
+
+/* Vector */
+
+position: absolute;
+left: 3.89%;
+right: 50.26%;
+top: 3600px;
+bottom: 54.47%;
+
+/* background: radial-gradient(50.14% 48.95% at 50.18% 27.33%, #84191C 13%, #F0F2ED 96%, #FFFFFF 100%); */
+background-blend-mode: multiply;
+mix-blend-mode: multiply;
+
+}
+
+.heading3{
+    /* What PurEmpire offers you? */
+
+position: absolute;
+width: 561px;
+height: 53px;
+left: 738px;
+top: 3644px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 52px;
+/* or 217% */
+letter-spacing: 0.0015em;
+
+color: #495263;
+
+
+}
+
+.para3{
+    /* PurEmpire is established on only one principle which is to provide 100% pure products to its consumers. PurEmpire is committed to make sure the product that reaches its consumer is 100% pure and healthy. PurEmpire takes care of all aspects related to purity and hygiene from manufacturing to delivery. PurEmpire is established on only one principle which is to provide 100% pure products to its consumers. PurEmpire is committed to make sure the product that reaches its consumer is 100% pure and healthy. PurEmpire takes care of all aspects related to purity and hygiene from manufacturing to delivery.PurEmpire is established on only one principle which is to provide 100% pure products to its consumers. */
+
+position: absolute;
+width: 553px;
+height: 329px;
+left: 741px;
+top: 3702px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+letter-spacing: -0.01em;
+
+color: #000000;
+
+
+}
+
+
+.circles{
+    top: 4000px;
+    text-decoration:none;
+
+}
+.circlesList{
+    display: flex;
+    top: 4000px;
+    /* Frame */
+
+position: absolute;
+width: 179px;
+height: 179px;
+left: 41px;
+top: 4152px;
+padding-inline: 25px;
+padding-block: 10px;
+text-decoration:none;
+
+
+
+
+}
+
+.circlesList li{
+
+    padding: 15px;
+    text-decoration:none;
+    list-style: none;
+}
+
+/* --------------------------------------------------------------------------------- */
+ 
+
+.c1{
+        /* No artificial color */
+
+position: absolute;
+left: 55%;
+right: 15.08%;
+top: 40%;
+bottom: 34.08%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #84191C;
+
+
+
+ }
+
+ .c2{
+        /* No artificial Fragnance */
+
+position: absolute;
+left: 190%;
+right: 15.08%;
+top: 40%;
+bottom: 34.08%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #84191C;
+
+
+
+ }
+
+ .c3{
+    position: absolute;
+    left: 320%;
+    top: 40%;
+    bottom: 25.08%;
+    right: 15.08%;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 140;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    
+    color: #84191C;
+
+ }
+
+ .c4{
+
+    position: absolute;
+    left: 460%;
+    right: 15.08%;
+    top: 40%;
+    bottom: 34.08%;
+    text-align: justify;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    color: #84191C;
+ }
+
+ .c5{
+
+    position: absolute;
+    left: 590%;
+    right: 15.08%;
+    top: 40%;
+    bottom: 34.08%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    color: #84191C;
+ }
+
+ .c6{
+    position: absolute;
+    left: 55%;
+    right: 15.08%;
+    top: 40%;
+    bottom: 34.08%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    color: #84191C;
+ }
+
+ /* ================================================================== */
+.product{
+/* Products */
+
+position: absolute;
+width: 428px;
+height: 54px;
+left: 157px;
+top: 4575px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 52px;
+/* or 54% */
+letter-spacing: 0.0015em;
+
+color: #BF9674;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.our{
+/* Our */
+
+position: absolute;
+width: 117px;
+height: 53px;
+left: 157px;
+top: 4492px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 52px;
+/* or 81% */
+letter-spacing: 0.0015em;
+
+color: #BF9674;
+
+
+}
+
+.healthy{
+    /* Lets choose Healthy Life */
+
+position: absolute;
+width: 418px;
+height: 33px;
+left: 161px;
+top: 4663px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 28px;
+/* or 78% */
+letter-spacing: -0.01em;
+
+color: #495263;
+
+}
+
+.line {
+    /* Vector 11 */
+
+position: absolute;
+width: 417px;
+height: 0px;
+left: 161px;
+top: 4704px;
+
+border: 1px solid #BF9674;
+
+}
+
+.mustard_oil{
+  /* Vector */
+
+
+/* Card 10 */
+
+position: absolute;
+width: 1341px;
+height: 313px;
+left: 50px;
+top: 4824px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Base */
+
+
+
+
+/* Pure - Healthy - Unrefind */
+
+position: absolute;
+width: 240px;
+height: 23px;
+left: 0px;
+top: 4944px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* or 130% */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+
+/* MUSTARD OIL */
+
+position: absolute;
+width: 300px;
+height: 45px;
+left: 5px;
+top: 4879px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+
+}
+
+
+
+.pair1{
+    /* image 7 */
+
+position: absolute;
+width: 528px;
+height: 314px;
+left: 1px;
+top: 4880px;
+
+
+background: #EEDDC4;
+box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+.oil1{
+    /* oil 1 */
+
+position: absolute;
+width: 263px;
+height: 263px;
+left: 220px;
+top: 4920px;
+
+
+background: url(../Image/oil1.png);
+
+}
+
+.coconut_oil{
+
+    /* Card 13 */
+
+
+
+
+/* Base */
+
+
+
+
+/* Pure - Healthy - Unrefind */
+
+position: absolute;
+width: 240px;
+height: 23px;
+left: 668px;
+top: 5301px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* or 130% */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+
+/* COCONUT OIL */
+
+position: absolute;
+width: 309px;
+height: 45px;
+left: 5px;
+top: 5236px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+
+}
+
+.pair2{
+
+    /* image 6 */
+
+position: absolute;
+width: 528px;
+height: 313px;
+left: 1px;
+top: 5233px;
+
+background: #EEDDC4;
+box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+.oil2{
+
+    /* mature-coconut-500x500 1 */
+
+position: absolute;
+width: 379px;
+height: 275px;
+left: 140px;
+top: 5275px;
+
+background: url(../Image/oil2.png);
+
+}
+
+.gnut_oil{
+        /* Card 01 */
+
+position: absolute;
+width: 1341px;
+height: 313px;
+left: 50px;
+top: 6010px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Base */
+
+
+
+
+/* Pure - Healthy - Unrefind */
+
+position: absolute;
+width: 240px;
+height: 23px;
+left: 668px;
+top: 6000px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* or 130% */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+
+/* GROUNDNUT OIL */
+
+position: absolute;
+width: 309px;
+height: 45px;
+left: 5px;
+top: 5595px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+
+}
+
+.pair3{
+
+    /* Card 01 */
+
+
+
+/* GROUNDNUT OIL */
+
+position: absolute;
+width: 309px;
+height: 45px;
+left: 5px;
+top: 5592px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+}
+
+.oil3{
+    /* fresh-peanuts-white-removebg-preview 2 */
+
+position: absolute;
+width: 501px;
+height: 306px;
+left: 40px;
+top: 5600px;
+
+background: url(fresh-peanuts-white-removebg-preview.png);
+
+}
+
+
+
+.almond_oil{
+
+    /* Card 11 */
+
+
+
+/* Pure - Healthy - Unrefind */
+
+position: absolute;
+width: 240px;
+height: 23px;
+left: 668px;
+top: 5998px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* or 130% */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+
+/* ALMOND OIL */
+
+position: absolute;
+width: 309px;
+height: 45px;
+left: 5px;
+top: 5950px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+}
+
+.pair4{
+
+    /* image 8 */
+
+position: absolute;
+width: 528px;
+height: 313px;
+left: 5px;
+top: 5948px;
+
+background: #EEDDC4;
+box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+.oil4{
+    /* image 5 */
+
+position: absolute;
+width: 374px;
+height: 267px;
+left: 120px;
+top: 6000px;
+
+background: url(almond_png-removebg-preview.png);
+filter: drop-shadow(-4px 0px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+
+}
+
+.cumin_seed{
+    /* Card 12 */
+
+
+
+/* Pure - Healthy - Unrefind */
+
+position: absolute;
+width: 240px;
+height: 23px;
+left: 5px;
+top: 6349px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* or 130% */
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+
+/* BLACK SEED OIL */
+
+position: absolute;
+width: 309px;
+height: 45px;
+left: 5px;
+top: 6302px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+}
+
+.pair5{
+    /* image 9 */
+
+position: absolute;
+width: 528px;
+height: 313px;
+left: 5px;
+top: 6300px;
+
+background: #EEDDC4;
+box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+.oil5{
+    /* black-cumin-seeds-wooden-spoon-removebg-preview 1 */
+
+position: absolute;
+width: 782px;
+height: 384px;
+left: -50px;
+top: 6280px;
+
+background: url(cumin.png);
+
+
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.comingsoon{
+    /* More Products coming soon, stay tuned */
+
+position: absolute;
+width: 1070px;
+height: 85px;
+left: 185px;
+top: 6705px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 70px;
+/* or 127% */
+letter-spacing: 0.0015em;
+
+color: #BF9674;
+
+
+}
+  
+  
+/*=============================================================*/
+
+.coming_soon_products{
+    display: flex;
+
+}
+
+.csp{
+
+    display: flex;
+
+}
+
+.castor{
+    /* Card 14 */
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 295px;
+height: 30px;
+left: 95px;
+top: 7400px;
+
+
+
+/* CASTOR BEAN OIL */
+
+position: absolute;
+width: 295px;
+height: 30px;
+left: 95px;
+top: 6860px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+}
+
+.sunflower{
+/* Card 16 */
+
+position: absolute;
+width: 409px;
+height: 388px;
+left: 491px;
+top: 7294px;
+
+
+
+/* Base */
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 274px;
+height: 30px;
+left: 558px;
+top: 6860px;
+
+
+
+/* SUNFLOWER OIL */
+
+position: absolute;
+width: 274px;
+height: 30px;
+left: 510px;
+top: 6860px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+
+}
+
+.flax{
+    /* Card 18 */
+
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 100px;
+height: 30px;
+left: 1032px;
+top: 7551px;
+
+
+
+/* FLAX SEED OIL */
+
+position: absolute;
+width: 274px;
+height: 30px;
+left: 923px;
+top: 6860px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.0025em;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.castor_bg{
+
+    /* image 17 */
+
+position: absolute;
+width: 380px;
+height: 211px;
+left: 109px;
+top: 6870px;
+text-decoration: none;
+list-style: none;
+
+
+}
+
+.castor_beans{
+    /* castor beans 1 */
+
+position: absolute;
+width: 314px;
+height: 190px;
+left: 100px;
+top: 6860px;
+list-style: none;
+
+
+
+}
+
+.sunflower_bg{
+    position: absolute;
+width: 380px;
+height: 211px;
+left: 523px;
+top: 6870px;
+text-decoration: none;
+list-style: none;
+}
+
+
+
+.sunflower_glass{
+    /* sunflower 2 */
+
+position: absolute;
+width: 232px;
+height: 199px;
+left: 634px;
+top: 6870px;
+list-style: none;
+
+background: url(sunflower.png);
+
+
+}
+
+.sunflower_fl{
+    /* sunf bg 2 */
+
+position: absolute;
+width: 217px;
+height: 169px;
+left: 498px;
+top: 6880px;
+list-style: none;
+text-decoration: none;
+
+
+
+}
+
+.flax_bg{
+    /* image 19 */
+
+position: absolute;
+width: 380px;
+height: 211px;
+left: 935px;
+top: 6870px;
+list-style: none;
+text-decoration: none;
+z-index: +1;
+
+
+}
+
+.flax_seed{
+/* flax seed alsi 2 */
+
+position: absolute;
+width: 315px;
+height: 190px;
+left: 950px;
+top: 6874px;
+z-index: +1;
+list-style: none;
+text-decoration: none;
+
+
+
+}
+
+.progress_long{
+    /* Rectangle 4285 */
+
+position: absolute;
+width: 539px;
+height: 14px;
+left: 450px;
+top: 7280px;
+
+background: #E3CAAC;
+border-radius: 20px;
+
+
+}
+
+
+.progress_small{
+    /* Rectangle 4286 */
+
+position: absolute;
+width: 232px;
+height: 14px;
+left: 720px;
+top: 7280px;
+
+background: #84191C;
+border-radius: 20px;
+
+}
+
+
+.contact_bg{
+    /* Rectangle 4281 */
+
+position: absolute;
+width: 1240px;
+height: 650px;
+left: 59px;
+top: 7380px;
+
+background: rgba(238, 221, 196, 0.42);
+border-radius: 70px;
+
+}
+
+.contact{
+    /* Group 26 */
+
+/* Group 26 */
+
+position: absolute;
+width: 391px;
+height: 107px;
+left: 450px;
+top: 20px;
+
+
+
+
+/* Contact */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 90px;
+/* or 94% */
+letter-spacing: 0.0015em;
+
+color: #84191C;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+
+}
+
+
+.con_sen{
+    /* Provide us the required information to revert back using the form below- */
+
+position: absolute;
+width: 823px;
+height: 90px;
+left: 300px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 90px;
+/* identical to box height, or 375% */
+letter-spacing: 0.0015em;
+
+color: #000000;
+
+
+}
+
+.form{
+
+    max-width: 500px;
+    margin: auto;
+    padding-top: 220px;    
+
+    }
+
+.form input{
+
+    width: 100%;
+    font-size: 22px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 10px 3px;
+    margin: 30px 0px;
+   
+
+
+
+
+    }
+
+.btn-dark{
+    /* Rectangle 4280 */
+
+position: absolute;
+width: 522px;
+height: 67px;
+left: 360px;
+top: 555px;
+
+background: #84191C;
+border-radius: 20px;
+
+}
+
+.submit{
+    /* Submit */
+
+position: absolute;
+width: 126px;
+height: 90px;
+left: 190px;
+top: -12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 90px;
+/* identical to box height, or 250% */
+letter-spacing: 0.0015em;
+
+color: #FFFFFF;
+
+
+}
+
+.connectwithus{
+    /* Group 48095464 */
+
+position: absolute;
+width: 541px;
+height: 53px;
+left: 221px;
+top: 8100px;
+
+
+
+/* Connect with us */
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 52px;
+/* or 81% */
+letter-spacing: 0.0015em;
+
+color: #BF9674;
+
+}
+
+
+.vector_12{
+
+    position: absolute;
+    width: 190px;
+    height: 10px;
+    left: 220px;
+    top: 8165px;
+    
+    
+   
+
+
+
+}
+
+
+
+
+
+.last{
+    position: absolute;
+    width: 190px;
+    height: 10px;
+    left: 100px;
+    top: 8200px;
+    bottom: 0;
+
+
+}
+
+
+.foot{
+   /* Rectangle 4287 */
+
+   /* Rectangle 4287 */
+
+position: absolute;
+width: 1335px;
+height: 235px;
+left: 0px;
+top: 8600px;
+border-radius:10px;
+box-shadow: #272727;
+
+
+
+
+background: #84191C;
+
+}
+
+/* =================================Animation CSS============================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body1 {
+  background-color:  none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(253, 180, 71, 0.993));
+  font-size: 90px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: rgb(143, 20, 20);
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-50px)
+  }
+}
+
